@@ -1,0 +1,64 @@
+header>h1 {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+}
+
+.container-item {
+    border: 1px solid;
+    width: 100%;
+    padding: 18px;
+}
+
+.container-item>h2{
+    text-align: center;
+}
+
+.container-result{
+    text-align: center;
+    background-color: rgb(185, 241, 255);
+    padding-top: 1px;
+    padding-bottom: 15px;
+    border-style: groove;
+}
+
+.container-endresult{
+    text-align: center;
+    background-color: rgb(185, 241, 255);
+    padding-top: 1px;
+    padding-bottom: 15px;
+    border-style: groove;
+}
+
+.container-form{
+    background-color:  rgb(185, 241, 255);
+    border-style: groove;
+}
+
+.container-form>div{
+    padding: 8px;
+}
+
+button{
+    padding: 5px;
+    border-color: white;
+}
+
+#calculate-button{
+    background-color: orange ;
+    color: white;
+    border-color: white;
+}
+
+footer{
+    text-align: center;
+    padding-top: 25px;
+}
+
+img{
+    width: 135px;
+    height: 46px;
+    padding-top: 8px;
+}
