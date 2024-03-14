@@ -113,13 +113,14 @@ document.getElementById('form').addEventListener('submit', function(event) {
     }
 
     var elemenHasil = document.getElementById('result');
-    elemenHasil.innerHTML =     "Your BMI Result"
+    elemenHasil.innerHTML =     "<h3>Your Result</h3>" +
                                 "<strong>BMI:</strong> " + bmi.toFixed(1) + "<br>" +
+                                "<strong>" + infoUsia + "</strong>" + "<br>" +
                                 "<strong>Hasil:</strong> " + bmiCategory + "<br>" +
                                 "<strong>Berat badan:</strong> " + perbandinganBerat + " ideal" + "<br>" +
                                 "<strong>Saran:</strong> " + advice + "<br>" +
-                                "<strong>Keadaan:</strong> " + (penyakit ? penyakit : "Anda Sehat!") + "<br>" +
-                                "<strong>" + infoUsia + "</strong>";
+                                "<strong>Keadaan:</strong> " + (penyakit ? penyakit : "Anda Sehat!") + "<br>";
+                                
     
     elemenHasil.classList.add("result");
 });
